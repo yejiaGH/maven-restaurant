@@ -1,0 +1,13 @@
+fe80:0:0:0:0:0:0:1%1 - - [14/May/2017:19:27:54 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-1 64
+fe80:0:0:0:0:0:0:1%1 - - [14/May/2017:19:28:28 +0800] "GET /Restaurant/noodles?vagetable=Odd HTTP/1.1" 200 58 http-bio-8080-exec-3 1
+fe80:0:0:0:0:0:0:1%1 - - [14/May/2017:19:28:44 +0800] "GET /Restaurant/noodles?vegetable=Odd HTTP/1.1" 200 55 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:44:03 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:44:13 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-6 54
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:45:53 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-1 314
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:45:54 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:50:01 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-1 228
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:52:17 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-1 261
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:55:35 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-1 211
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:59:04 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 58 http-bio-8080-exec-1 247
+0:0:0:0:0:0:0:1 - - [14/May/2017:20:59:35 +0800] "GET /Restaurant/noodles?vegatable=Broconni HTTP/1.1" 200 58 http-bio-8080-exec-2 10
+0:0:0:0:0:0:0:1 - - [14/May/2017:21:00:03 +0800] "GET /Restaurant/noodles?vegetable=Broconni HTTP/1.1" 200 60 http-bio-8080-exec-3 18
